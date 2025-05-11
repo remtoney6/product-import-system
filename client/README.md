@@ -6,14 +6,14 @@ This is the frontend application for the Product Import System, built using Reac
 
 ### Prerequisites
 
-- Node.js (v16 or later)
-- npm or yarn
+- Node.js (v18 or later)
+- npm
 - Laravel backend running at `http://localhost:8000`
 
 ### 1. Navigate to the frontend directory
 
 ```bash
-cd frontend
+cd client
 ```
 
 ### 2. Install dependencies
@@ -23,10 +23,10 @@ npm install
 ```
 
 ### 3. Configure environment variables
-Create a .env file inside the frontend/ directory:
+Create a .env file inside the client/ directory:
 
 ```bash
-REACT_APP_API_URL=http://localhost:8000/api
+REACT_APP_API_BASE_URL=http://localhost:8000
 ```
 
 ### 4. Run the development server
@@ -35,24 +35,3 @@ REACT_APP_API_URL=http://localhost:8000/api
 npm start
 ```
 The app will be available at http://localhost:3000.
-
-### Folder Structure
-frontend/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── LoginForm.jsx
-│   │   ├── SignupForm.jsx
-│   │   ├── ProductImport.jsx
-│   │   └── ProductList.jsx
-│   ├── pages/
-│   │   ├── LoginPage.jsx
-│   │   ├── SignupPage.jsx
-│   │   └── HomePage.jsx
-│   ├── services/
-│   │   └── api.js
-│   ├── App.jsx
-│   └── index.js
-├── .env
-└── package.json
-
