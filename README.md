@@ -100,3 +100,4 @@ The frontend will be available at http://localhost:3000.
 
 - Frontend: Open http://localhost:3000 in your browser.
 - Login: Use test@mail.com and password123 to log in.
+- A sample csv file has been added to public/csv folder.
